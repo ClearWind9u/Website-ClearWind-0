@@ -48,7 +48,10 @@ h2 {
   margin: 10px auto;
   border: 5px solid #ff0000;
   border-radius: 20px 0 20px 0;
+}
+#Lee, #BB, #Noo, #Duy {
   position:relative;
+  cursor:pointer;
   transition:all 1s;
 }
 #sidebar {
