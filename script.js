@@ -17,10 +17,10 @@ lee.onclick = () => {
   status.innerText = "Sai rồi";
 }
 lee.onmouseover = () =>{
-  lee.style.width = '60px';
+  lee.style.width = '160px';
 }
 lee.onmouseleave = () =>{
-  lee.style.width = '50px';
+  lee.style.width = '150px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const bb = document.querySelector('#BB');
@@ -33,10 +33,10 @@ bb.onclick = () => {
 status.innerText = "Sai rồi";
 }
 bb.onmouseover = () =>{
-  bb.style.width = '49px';
+  bb.style.width = '148px';
 }
 bb.onmouseleave = () =>{
-  bb.style.width = '46px';
+  bb.style.width = '138px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const noo = document.querySelector('#Noo');
@@ -49,25 +49,25 @@ noo.onclick = () => {
   status.innerText = "Chính xác";
 }
 noo.onmouseover = () =>{
-  noo.style.width = '48px';
+  noo.style.width = '154px';
 }
 noo.onmouseleave = () =>{
-  noo.style.width = '48px';
+  noo.style.width = '144px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const duy = document.querySelector('#Duy');
 duy.onclick = () => {
   Bounce();
-  duy.style.top = '-30px';
+  duy.style.top = '-10px';
   setTimeout(()=> {
     duy.style.top = '0px';
   },1000);
   status.innerText = "Sai rồi";
 }
 duy.onmouseover = () =>{
-  duy.style.width = '300px';
+  duy.style.width = '160px';
 }
 duy.onmouseleave = () =>{
-  duy.style.width = '250px';
+  duy.style.width = '150px';
   status.innerText = "Đâu là trai thẳng?";
 }
