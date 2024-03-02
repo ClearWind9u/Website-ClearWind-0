@@ -83,14 +83,12 @@
     </div>
   </body>
   <script>
-    function playSound (){
-  const audio = new Audio('https://www.youtube.com/watch?v=OY_mJkgRxuM');
-  audio.play();
-}
 const noo = document.querySelector('#Noo');
 noo.onclick = () => {
-  playSound();
   noo.style.top = '-50px';
+  setTimeout(()=> {
+    noo.style.top = '-10px';
+  },1000);
 }
   </script>
 </html>
