@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 html {
-  background: url("https://i.pinimg.com/originals/43/69/6c/43696c32a9dac7ea43c9e63a1a6a42ad.jpg");
+  background: url("https://i.pinimg.com/originals/c2/e9/02/c2e902e031e1d9d932411dd0b8ab5eef.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -52,7 +52,7 @@ h2 {
 }
 #status {
   font-size: 20px;
-  color: blueviolet;
+  color: red;
 }
 #Lee, #BB, #Noo, #Duy {
   position:relative;
@@ -69,7 +69,7 @@ h2 {
   padding: 10px 10px 10px 20px;
 }
 a {
-  color: #3498db;
+  color: black;
 }
 a:hover {
   color: #e74c3c;
