@@ -10,49 +10,49 @@ const status = document.querySelector('#status');
 const lee = document.querySelector('#Lee');
 lee.onclick = () => {
   Bounce();
-  lee.style.top = '-30px';
+  lee.style.top = '-10px';
   setTimeout(()=> {
     lee.style.top = '0px';
   },1000);
   status.innerText = "Sai rồi";
 }
 lee.onmouseover = () =>{
-  lee.style.width = '300px';
+  lee.style.width = '60px';
 }
 lee.onmouseleave = () =>{
-  lee.style.width = '250px';
+  lee.style.width = '50px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const bb = document.querySelector('#BB');
 bb.onclick = () => {
   Bounce();
-  bb.style.top = '-30px';
+  bb.style.top = '-10px';
   setTimeout(()=> {
     bb.style.top = '0px';
   },1000);
 status.innerText = "Sai rồi";
 }
 bb.onmouseover = () =>{
-  bb.style.width = '280px';
+  bb.style.width = '49px';
 }
 bb.onmouseleave = () =>{
-  bb.style.width = '230px';
+  bb.style.width = '46px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const noo = document.querySelector('#Noo');
 noo.onclick = () => {
   Correct();
-  noo.style.top = '-30px';
+  noo.style.top = '-10px';
   setTimeout(()=> {
     noo.style.top = '0px';
   },1000);
   status.innerText = "Chính xác";
 }
 noo.onmouseover = () =>{
-  noo.style.width = '290px';
+  noo.style.width = '48px';
 }
 noo.onmouseleave = () =>{
-  noo.style.width = '240px';
+  noo.style.width = '48px';
   status.innerText = "Đâu là trai thẳng?";
 }
 const duy = document.querySelector('#Duy');
