@@ -27,6 +27,7 @@ h2 {
 }
 #bottom {
   text-align: center;
+  color: black;
   font-weight: 700;
   background-color: #bdc3c7;
   line-height: 30px;
@@ -48,6 +49,10 @@ h2 {
   margin: 10px auto;
   border: 5px solid #ff0000;
   border-radius: 20px 0 20px 0;
+}
+#status {
+  font-size: 20px;
+  color: blueviolet;
 }
 #Lee, #BB, #Noo, #Duy {
   position:relative;
